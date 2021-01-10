@@ -1,0 +1,15 @@
+[
+  {
+    "name": "subh-nodejs-webapp",
+    "image": "subhatcloud/nodejs-webapp:production",
+    "cpu": 0,
+    "memory": 256,
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 8080,
+        "hostPort": 8080
+      }
+    ]
+  }
+]
